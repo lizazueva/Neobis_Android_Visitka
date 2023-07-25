@@ -26,7 +26,7 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <ScrollView
         android:id="@+id/some_id1"
         android:layout_width="343dp"
         android:layout_height="57dp"
@@ -45,9 +45,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+    </ScrollView>
 
-    <LinearLayout
+    <ScrollView
         android:id="@+id/some_id2"
         android:layout_width="343dp"
         android:layout_height="57dp"
@@ -66,9 +66,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+    </ScrollView>
 
-    <LinearLayout
+    <ScrollView
         android:id="@+id/some_id3"
         android:layout_width="343dp"
         android:layout_height="57dp"
@@ -86,9 +86,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+    </ScrollView>
 
-    <LinearLayout
+    <ScrollView
         android:id="@+id/some_id4"
         android:layout_width="343dp"
         android:layout_height="57dp"
@@ -107,9 +107,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+    </ScrollView>
 
-    <LinearLayout
+    <ScrollView
         android:id="@+id/some_id5"
         android:layout_width="343dp"
         android:layout_height="57dp"
@@ -128,6 +128,6 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
