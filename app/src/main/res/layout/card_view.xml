@@ -7,6 +7,20 @@
     android:background="#ECEFF8">
 
 
+    <TextView
+        android:id="@+id/open_map"
+        android:layout_width="74dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Open map"
+        android:textColor="#924883"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view4" />
+
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
@@ -68,5 +82,89 @@
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/photo_2" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="215dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_60_f_302681154_9howdvgltckpfwo5b85yesszg7mfmlul_removebg_preview_1" />
+
+    <TextView
+        android:id="@+id/dental_clinic"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/alex_brush"
+        android:text="Dental Clinic"
+        android:textColor="#322E78"
+        android:textSize="32sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="151dp"
+        android:layout_height="16dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Your friendly Dental Friend"
+        android:textColor="#322E78"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/dental_clinic"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="197dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/our_location"
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Our Location"
+        android:textColor="#003C68"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toTopOf="@+id/view4" />
+
+    <TextView
+        android:id="@+id/shopping_centr"
+        android:layout_width="197dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Shopping center Asia Mall 1st floor"
+        android:textColor="#003C68"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view4"
+        app:layout_constraintTop_toBottomOf="@+id/our_location" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
