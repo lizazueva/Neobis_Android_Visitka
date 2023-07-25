@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Neobis_Android_Visitka</string>
+    <string name="Top_bar">Doctors</string>
+    <string name="some_id">Novikov Azamat</string>
+    <string name="some_id2">Nurmatov Zamir</string>
+    <string name="some_id3">Khalilova Munisa</string>
+    <string name="some_id4">Alieva Adina</string>
+    <string name="some_id5">Kolesova Victoria</string>
 </resources>

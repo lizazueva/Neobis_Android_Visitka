@@ -1,18 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="360dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-4sp"
+            android:text="@string/Top_bar"
+            android:textColor="#030303"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/some_id1"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5A53CF">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/some_id"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/some_id2"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5A53CF">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/some_id2"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/some_id3"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5A53CF">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/some_id3"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/some_id4"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5A53CF">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/some_id4"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/some_id5"
+        android:layout_width="343dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#5A53CF">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/some_id5"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
