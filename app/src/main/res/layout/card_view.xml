@@ -30,27 +30,27 @@
         app:layout_constraintTop_toTopOf="@+id/view" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/doctor_1"
         android:layout_width="158dp"
         android:layout_height="35dp"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/open_sans"
-        android:text="Dr.Novikov"
+        android:text="@string/doctor_1"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/position1"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:layout_constraintVertical_bias="0.578" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/position1"
         android:layout_width="69dp"
         android:layout_height="25dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="12dp"
         android:fontFamily="@font/open_sans"
-        android:text="Dentist"
+        android:text="@string/position1"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
@@ -62,11 +62,11 @@
         android:layout_height="106dp"
         android:layout_marginEnd="7dp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/doctor_1"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/photp_2" />
+        app:srcCompat="@drawable/photo_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
