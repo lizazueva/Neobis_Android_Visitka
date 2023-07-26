@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:id="@+id/top_bar"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="52dp"
         android:layout_marginTop="32dp"
         android:background="#FFFFFF">
@@ -28,7 +28,7 @@
 
     <ScrollView
         android:id="@+id/some_id1"
-        android:layout_width="343dp"
+        android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -49,7 +49,7 @@
 
     <ScrollView
         android:id="@+id/some_id2"
-        android:layout_width="343dp"
+        android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -70,7 +70,7 @@
 
     <ScrollView
         android:id="@+id/some_id3"
-        android:layout_width="343dp"
+        android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -90,7 +90,7 @@
 
     <ScrollView
         android:id="@+id/some_id4"
-        android:layout_width="343dp"
+        android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
@@ -111,7 +111,7 @@
 
     <ScrollView
         android:id="@+id/some_id5"
-        android:layout_width="343dp"
+        android:layout_width="match_parent"
         android:layout_height="57dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="2dp"
