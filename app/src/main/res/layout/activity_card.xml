@@ -14,7 +14,7 @@
         android:layout_marginStart="14dp"
         android:layout_marginTop="40dp"
         app:layout_constraintStart_toEndOf="@+id/card_call"
-        app:layout_constraintTop_toBottomOf="@+id/view3" >
+        app:layout_constraintTop_toBottomOf="@+id/dentalView" >
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -22,13 +22,13 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/WhatsApp"
+                android:id="@+id/text_whatsApp"
                 android:layout_width="68dp"
                 android:layout_height="19dp"
                 android:layout_gravity="bottom|center_horizontal"
                 android:layout_marginBottom="21dp"
                 android:fontFamily="@font/open_sans"
-                android:text="@string/whatsapp"
+                android:text="@string/text_whatsApp"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -36,14 +36,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/image_whatsapp"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/WhatsApp"
+                app:layout_constraintBottom_toTopOf="@+id/text_whatsApp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/_2010669791554469325_1" />
+                app:srcCompat="@drawable/ic_whatsapp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -66,12 +66,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/website"
+                android:id="@+id/text_website"
                 android:layout_width="84dp"
                 android:layout_height="19dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginBottom="21dp"
-                android:text="@string/visit_website"
+                android:text="@string/text_website"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -79,21 +79,21 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/image_website"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/website"
+                app:layout_constraintBottom_toTopOf="@+id/text_website"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/_7612662791579252567_1" />
+                app:srcCompat="@drawable/ic_website" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/top_bar_doctor"
         android:layout_width="match_parent"
         android:layout_height="174dp"
         android:background="#322E78"
@@ -102,61 +102,61 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view2"
+        android:id="@+id/card_doctor"
         android:layout_width="263dp"
         android:layout_height="106dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="49dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="19dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toTopOf="@+id/view" />
+        app:layout_constraintBottom_toBottomOf="@+id/top_bar_doctor"
+        app:layout_constraintEnd_toEndOf="@+id/top_bar_doctor"
+        app:layout_constraintStart_toStartOf="@+id/top_bar_doctor"
+        app:layout_constraintTop_toTopOf="@+id/top_bar_doctor" />
 
     <TextView
-        android:id="@+id/doctor_1"
+        android:id="@+id/text_name_doctor"
         android:layout_width="158dp"
         android:layout_height="35dp"
         android:layout_marginBottom="5dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/doctor_1"
+        android:text="@string/text_name_doctor"
         android:textColor="#FFFFFF"
         android:textSize="26sp"
-        app:layout_constraintBottom_toTopOf="@+id/position1"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintBottom_toTopOf="@+id/text_position"
+        app:layout_constraintEnd_toEndOf="@+id/card_doctor"
+        app:layout_constraintTop_toTopOf="@+id/card_doctor"
         app:layout_constraintVertical_bias="0.578" />
 
     <TextView
-        android:id="@+id/position1"
+        android:id="@+id/text_position"
         android:layout_width="69dp"
         android:layout_height="25dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="12dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/position1"
+        android:text="@string/text_position"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintStart_toEndOf="@+id/imageView2" />
+        app:layout_constraintBottom_toBottomOf="@+id/card_doctor"
+        app:layout_constraintEnd_toEndOf="@+id/card_doctor"
+        app:layout_constraintStart_toEndOf="@+id/image_doctor" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/image_doctor"
         android:layout_width="98dp"
         android:layout_height="106dp"
         android:layout_marginEnd="7dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toStartOf="@+id/doctor_1"
+        app:layout_constraintBottom_toBottomOf="@+id/card_doctor"
+        app:layout_constraintEnd_toStartOf="@+id/text_name_doctor"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/card_doctor"
+        app:layout_constraintTop_toTopOf="@+id/card_doctor"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/photo_2" />
+        app:srcCompat="@drawable/photo_doctor" />
 
     <View
-        android:id="@+id/view3"
+        android:id="@+id/dentalView"
         android:layout_width="215dp"
         android:layout_height="74dp"
         android:layout_marginStart="16dp"
@@ -165,46 +165,46 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.176"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+        app:layout_constraintTop_toBottomOf="@+id/top_bar_doctor" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/image_dental"
         android:layout_width="62dp"
         android:layout_height="63dp"
         android:layout_marginBottom="11dp"
-        app:layout_constraintBottom_toBottomOf="@+id/view3"
-        app:layout_constraintStart_toStartOf="@+id/view3"
-        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintBottom_toBottomOf="@+id/dentalView"
+        app:layout_constraintStart_toStartOf="@+id/dentalView"
+        app:layout_constraintTop_toTopOf="@+id/dentalView"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/_60_f_302681154_9howdvgltckpfwo5b85yesszg7mfmlul_removebg_preview_1" />
+        app:srcCompat="@drawable/ic_dental" />
 
     <TextView
-        android:id="@+id/dental_clinic"
+        android:id="@+id/text_dental_clinic"
         android:layout_width="150dp"
         android:layout_height="32dp"
         android:layout_marginTop="31dp"
         android:fontFamily="@font/alex_brush"
-        android:text="@string/dental_clinic"
+        android:text="@string/text_dental_clinic"
         android:textColor="#322E78"
         android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/view3" />
+        app:layout_constraintStart_toEndOf="@+id/image_dental"
+        app:layout_constraintTop_toTopOf="@+id/dentalView" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/text_friendly_dental"
         android:layout_width="151dp"
         android:layout_height="16dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/dental_friend"
+        android:text="@string/text_friendly_dental"
         android:textColor="#322E78"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view3"
-        app:layout_constraintEnd_toEndOf="@+id/view3"
-        app:layout_constraintTop_toBottomOf="@+id/dental_clinic"
+        app:layout_constraintBottom_toBottomOf="@+id/dentalView"
+        app:layout_constraintEnd_toEndOf="@+id/dentalView"
+        app:layout_constraintTop_toBottomOf="@+id/text_dental_clinic"
         app:layout_constraintVertical_bias="0.0" />
 
     <View
-        android:id="@+id/view4"
+        android:id="@+id/locationView"
         android:layout_width="197dp"
         android:layout_height="102dp"
         android:layout_marginStart="16dp"
@@ -218,46 +218,46 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/our_location"
+        android:id="@+id/text_our_location"
         android:layout_width="121dp"
         android:layout_height="25dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/our_location"
+        android:text="@string/text_our_location"
         android:textColor="#003C68"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="@+id/locationView"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toTopOf="@+id/view4" />
+        app:layout_constraintStart_toStartOf="@+id/locationView"
+        app:layout_constraintTop_toTopOf="@+id/locationView" />
 
     <TextView
-        android:id="@+id/shopping_center"
+        android:id="@+id/text_shopping_center"
         android:layout_width="197dp"
         android:layout_height="44dp"
         android:layout_marginBottom="12dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/shopping_center_asia_mall_1st_floor"
+        android:text="@string/text_shopping_center"
         android:textColor="#003C68"
         android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/open_map"
-        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintBottom_toTopOf="@+id/text_open_map"
+        app:layout_constraintEnd_toEndOf="@+id/locationView"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/view4"
-        app:layout_constraintTop_toBottomOf="@+id/our_location" />
+        app:layout_constraintStart_toStartOf="@+id/locationView"
+        app:layout_constraintTop_toBottomOf="@+id/text_our_location" />
 
     <TextView
-        android:id="@+id/open_map"
+        android:id="@+id/text_open_map"
         android:layout_width="74dp"
         android:layout_height="19dp"
         android:layout_marginBottom="2dp"
         android:fontFamily="@font/open_sans"
-        android:text="@string/open_map"
+        android:text="@string/text_open_map"
         android:textColor="#924883"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view4"
-        app:layout_constraintEnd_toEndOf="@+id/view4"
+        app:layout_constraintBottom_toBottomOf="@+id/locationView"
+        app:layout_constraintEnd_toEndOf="@+id/locationView"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view4" />
+        app:layout_constraintStart_toStartOf="@+id/locationView" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_call"
@@ -268,19 +268,19 @@
         android:layout_marginEnd="244dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view3" >
+        app:layout_constraintTop_toBottomOf="@+id/dentalView" >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/to_call"
+                android:id="@+id/text_to_call"
                 android:layout_width="42dp"
                 android:layout_height="19dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginBottom="21dp"
-                android:text="@string/to_call"
+                android:text="@string/text_to_call"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -288,14 +288,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/image_call"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/to_call"
+                app:layout_constraintBottom_toTopOf="@+id/text_to_call"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/call" />
+                app:srcCompat="@drawable/ic_call" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -315,12 +315,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/telegram"
+                android:id="@+id/text_telegram"
                 android:layout_width="62dp"
                 android:layout_height="19dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginBottom="21dp"
-                android:text="@string/telegram"
+                android:text="@string/text_telegram"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -328,14 +328,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/image_telegram"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/telegram"
+                app:layout_constraintBottom_toTopOf="@+id/text_telegram"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/_758899171556105723_1" />
+                app:srcCompat="@drawable/ic_telegram" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
@@ -350,19 +350,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/card_whats"
-        app:layout_constraintTop_toBottomOf="@+id/view3">
+        app:layout_constraintTop_toBottomOf="@+id/dentalView">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/email"
+                android:id="@+id/text_email"
                 android:layout_width="55dp"
                 android:layout_height="19dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginBottom="21dp"
-                android:text="@string/email_us"
+                android:text="@string/text_email"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -370,14 +370,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/image_email"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/email"
+                app:layout_constraintBottom_toTopOf="@+id/text_email"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/_7952689171595156226_1" />
+                app:srcCompat="@drawable/ic_email" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -400,12 +400,12 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/contact"
+                android:id="@+id/text_contact"
                 android:layout_width="84dp"
                 android:layout_height="19dp"
                 android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_marginBottom="21dp"
-                android:text="@string/save_contact"
+                android:text="@string/text_contact"
                 android:textColor="#003C68"
                 android:textSize="14sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -413,14 +413,14 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/image_contact"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                app:layout_constraintBottom_toTopOf="@+id/contact"
+                app:layout_constraintBottom_toTopOf="@+id/text_contact"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/_1888099231547464150_1" />
+                app:srcCompat="@drawable/ic_contact" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
