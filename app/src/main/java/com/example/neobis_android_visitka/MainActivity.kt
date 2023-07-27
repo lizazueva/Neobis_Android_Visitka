@@ -29,9 +29,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-     fun newIntent(doctor: Doctors){
-        val intent = Intent(this, CardActivity::class.java)
+     fun newIntent(doctor:Doctors){
+        val intent = Intent(this@MainActivity, CardActivity::class.java)
+         intent.putExtra("name", doctor.name)
+         intent.putExtra("position", doctor.position)
         startActivity(intent)
+
     }
 
 }

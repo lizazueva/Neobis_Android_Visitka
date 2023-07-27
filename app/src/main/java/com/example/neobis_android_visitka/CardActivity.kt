@@ -12,6 +12,11 @@ class CardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCardBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val name = intent.getStringExtra("name")
+        val position = intent.getStringExtra("position")
+        binding.textNameDoctor.text = name
+        binding.textPosition.text = position
     }
 
 }

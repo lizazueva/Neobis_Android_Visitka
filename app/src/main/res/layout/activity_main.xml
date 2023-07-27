@@ -25,8 +25,16 @@
             android:textSize="24sp" />
 
     </LinearLayout>
-
     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
         android:id="@+id/NovikovCard"
         android:layout_width="match_parent"
         android:layout_height="57dp"
@@ -35,7 +43,7 @@
         android:layout_marginRight="2dp"
         android:background="#5A53CF">
 
-        <TextView
+         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="14dp"
@@ -45,9 +53,10 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </ScrollView>
+        </LinearLayout>
 
-    <ScrollView
+
+    <LinearLayout
         android:id="@+id/NurmatovCard"
         android:layout_width="match_parent"
         android:layout_height="57dp"
@@ -66,9 +75,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </ScrollView>
+    </LinearLayout>
 
-    <ScrollView
+    <LinearLayout
         android:id="@+id/KhailovaCard"
         android:layout_width="match_parent"
         android:layout_height="57dp"
@@ -86,9 +95,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </ScrollView>
+    </LinearLayout>
 
-    <ScrollView
+    <LinearLayout
         android:id="@+id/AlievaCard"
         android:layout_width="match_parent"
         android:layout_height="57dp"
@@ -107,9 +116,9 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-    </ScrollView>
+    </LinearLayout>
 
-    <ScrollView
+    <LinearLayout
         android:id="@+id/KolesovaCard"
         android:layout_width="match_parent"
         android:layout_height="57dp"
@@ -128,6 +137,8 @@
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
+    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
-
 </LinearLayout>
+
