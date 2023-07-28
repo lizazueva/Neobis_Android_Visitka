@@ -28,7 +28,7 @@ class CardActivity : AppCompatActivity() {
         cardCall.setOnClickListener {
             val numberUri = Uri.parse("tel:891033345555")
             val intent = Intent(Intent.ACTION_DIAL, numberUri)
-                startActivity(intent)
+            startActivity(intent)
             }
 
         cardMap.setOnClickListener {
@@ -39,7 +39,10 @@ class CardActivity : AppCompatActivity() {
 
         cardMail.setOnClickListener {
             val mailUri = Uri.parse("mailto: mail@mail.ru")
-            val intent = Intent(Intent.ACTION_SENDTO,mailUri)
+            val intent = Intent(Intent.ACTION_SEND,mailUri).apply {
+                data = mailUri
+                type = "text/plain"
+            }
             startActivity(intent)
         }
 
