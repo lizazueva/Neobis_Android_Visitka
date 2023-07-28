@@ -51,13 +51,13 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
     }
 
-    override fun onSaveInstanceState(savedInstanceState: Bundle) {
-        super.onSaveInstanceState(savedInstanceState)
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
         doctors.forEachIndexed { index, doctor ->
-            savedInstanceState.putString("DOCTOR_NAME_$index", doctor.name)
+            outState.putString("DOCTOR_NAME_$index", doctor.name)
         }
         doctors.forEachIndexed { index, doctor ->
-            savedInstanceState.putString("POSITION_$index", doctor.position)
+            outState.putString("POSITION_$index", doctor.position)
         }
 
         }
