@@ -16,7 +16,12 @@
             android:name=".CardActivity"
             android:exported="false"
             android:label="@string/title_activity_card"
-            android:theme="@style/Theme.Neobis_Android_Visitka" />
+            android:theme="@style/Theme.Neobis_Android_Visitka" >
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PHONE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
