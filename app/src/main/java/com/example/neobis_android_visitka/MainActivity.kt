@@ -3,7 +3,6 @@ package com.example.neobis_android_visitka
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.neobis_android_visitka.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
